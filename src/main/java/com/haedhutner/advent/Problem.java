@@ -2,6 +2,8 @@ package com.haedhutner.advent;
 
 public interface Problem<T> {
 
-    T solve();
+    T part1();
+
+    T part2();
 
 }
